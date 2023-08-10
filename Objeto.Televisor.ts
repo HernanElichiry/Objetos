@@ -79,7 +79,8 @@ class Televisor {
 
     info(): void {
       if (!this.isOn) return console.log("el televisor esta apagado");
-      console.log( "informacion: canal:",this.channel,"volumen:", this.volume, "hora actual:", );
+      const horaActual = new Date().toLocaleTimeString();
+      console.log( "informacion: canal:",this.channel,"volumen:", this.volume, "hora actual:", horaActual );
     }
   }
   
