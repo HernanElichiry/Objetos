@@ -1,7 +1,4 @@
 
-
-
-
 class Reptil {
     nombre: string;
     tipo: string;
