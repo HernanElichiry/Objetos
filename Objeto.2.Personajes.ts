@@ -67,3 +67,5 @@ class Personaje {
   const enemigo1 = new Enemigo("Ogro", "Fuerza Bruta", 32, personajeEnemigo);
   enemigo1.atacar();
   enemigo1.atacar();
+
+  
