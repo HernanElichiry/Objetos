@@ -21,7 +21,6 @@ class AccountType {
 }
 
 
-
 //Primero creo la clase molde y establezo las propiedades 
 export class BankAccount {
     private owner: string;
@@ -62,5 +61,8 @@ export class BankAccount {
 //porque hacemos todo esto? por seguridad
 
 const CuentaNamberOne = new BankAccount("hernan", AccountTypeEnum.CajaDeAhorro);
-console.log(CuentaNamberOne.deposit(1000));
+CuentaNamberOne.deposit(1000);
 CuentaNamberOne.getBalance;
+
+    
+
