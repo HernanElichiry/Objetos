@@ -62,7 +62,7 @@ export class BankAccount {
 
 const CuentaNamberOne = new BankAccount("hernan", AccountTypeEnum.CajaDeAhorro);
 CuentaNamberOne.deposit(1000);
-CuentaNamberOne.getBalance;
+CuentaNamberOne.getBalance();
 
     
 
