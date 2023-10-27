@@ -3,7 +3,7 @@ Crear un super clase llamada Deportista (que tenga al menos 3 atributos [al meno
 Bonus: una de las sub clases podria estar compuesta por otras clases*/
 
 class Deportista{
-    private nombre: string;
+    protected nombre: string;
     private edad: number;
     protected altura: string;
 
@@ -75,6 +75,7 @@ class Nadador extends Deportista{
     }
 
     nadarPecho(){
+        console.log(`${this.nombre} está nadando pecho.`);
 
 
     }
@@ -82,16 +83,6 @@ class Nadador extends Deportista{
 
 }
 
-
-class Lagarto extends Reptil {
-    constructor(nombre: string, habitat: string) {
-        super(nombre, "Lagarto", habitat);
-    }
-
-    cambiarPiel() {
-        console.log(`${this.nombre} está mudando de piel.`);
-    }
-}
 
 
 

@@ -1,4 +1,5 @@
 import { randomUUID as uid } from "node:crypto";
+
 interface iAddress {
   street: string;
   number: number;
@@ -51,6 +52,8 @@ class Book extends LibraryItem {
     return this.author;
   }
 }
+
+
 //revistas
 class Magazine extends LibraryItem {
   private editor: string;
@@ -99,6 +102,8 @@ class User {
   public getPhoneNumber(): string {
     return this.phoneNumber;
   }
+
+  
 }
 
 //Préstamos
@@ -194,7 +199,11 @@ class Library {
   private findItem(item: LibraryItem): LibraryItem | undefined {
     return this.items.find((i) => i === item);
   }
+
+  
+
 }
+
 const library = new Library();
 const book01 = new Book("A sangre fía", 1977, "Rodolfo Walsh");
 const magazine01 = new Magazine("Pronto", 2011, "Random House Penguin sarasa");

@@ -1,12 +1,12 @@
 
-class Motor{
+class Motor {
     private tipo: string;
     public constructor(tipo:string){
     this.tipo = tipo;
 }
 }
 
-class Automovil{
+class Automovil {
     private Marca: string;
     private Modelo: string;
     private Color: string;

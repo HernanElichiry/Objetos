@@ -1,6 +1,6 @@
 
 //Creo la clase libro con
-class Book {
+/*class Book {
     private Titulo: string;
     private Autor: string;
     private Estado : boolean;
@@ -25,4 +25,4 @@ class Book {
 }
 
 
-const Socio1 = new Book();
+const Socio1 = new Book();*/

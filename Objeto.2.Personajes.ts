@@ -1,4 +1,4 @@
-class Personaje {
+class Personajes {
     private nombre: string;
     private edad: number;
     private pais: string;
@@ -35,9 +35,9 @@ class Personaje {
     private tipo: string;
     private danio: number;
     private energia: number;
-    private personaje: Personaje;
+    private personaje: Personajes;
   
-    constructor(nombre: string, tipo: string, danio: number, personaje: Personaje) {
+    constructor(nombre: string, tipo: string, danio: number, personaje: Personajes) {
       this.nombre = nombre;
       this.tipo = tipo;
       this.danio = danio;
@@ -57,13 +57,13 @@ class Personaje {
   }
   
   // Crear un personaje y probar sus métodos
-  const personaje1 = new Personaje("Luchador1", 25, "Japón", "Puño de Fuego");
+  const personaje1 = new Personajes("Luchador1", 25, "Japón", "Puño de Fuego");
   personaje1.recibirDanio(20);
   personaje1.usarMovimientoEspecial("Enemigo1");
   personaje1.incrementarNivel();
   
   // Crear un enemigo y probar sus métodos
-  const personajeEnemigo = new Personaje("Enemigo1", 30, "Mundo Oscuro", "Maldición Oscura");
+  const personajeEnemigo = new Personajes("Enemigo1", 30, "Mundo Oscuro", "Maldición Oscura");
   const enemigo1 = new Enemigo("Ogro", "Fuerza Bruta", 32, personajeEnemigo);
   enemigo1.atacar();
   enemigo1.atacar();

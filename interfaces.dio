@@ -1,20 +1,20 @@
 <mxfile host="65bd71144e">
     <diagram id="ob7JhqOMFwmKkdc8vum_" name="Página-1">
-        <mxGraphModel dx="640" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="640" dy="317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="Prender();&lt;br&gt;Apagar();&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="150" y="50" width="240" height="130" as="geometry"/>
+                <mxCell id="2" value="Prender();&lt;br&gt;Apagar();&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="50" width="240" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="Dispositivos Electronicos&lt;br&gt;-Marca: string&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="150" y="50" width="240" height="40" as="geometry"/>
+                <mxCell id="3" value="Dispositivos Electronicos&lt;br&gt;-Marca: string&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="50" width="240" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="330" y="220" width="230" height="120" as="geometry"/>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="60" width="230" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="Control Remoto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="330" y="220" width="230" height="40" as="geometry"/>
+                <mxCell id="5" value="Control Remoto" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="50" width="230" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
